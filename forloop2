@@ -1,0 +1,6 @@
+#!/bin/bash
+for x in `seq 5 10`
+#backtick(` found on ~ key below escape) is used for command substitution
+do 
+   echo $x
+done

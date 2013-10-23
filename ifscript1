@@ -1,0 +1,16 @@
+#!/bin/bash
+# "#!" = "shebang" & tells linux what program to use to process script
+
+echo "Is your name Bob?"
+#echo "$(whoami)"
+#echo "processing..."
+#sleep 3
+read ISNAME
+if [ $ISNAME = "Yes" ]; #semicolon required on if statement
+#user_name='whoami'
+#if ['whoami' = "Bob"];
+then
+   echo "Nice to meet you, Bob."
+else
+   echo "Away from me, NotBob."
+fi

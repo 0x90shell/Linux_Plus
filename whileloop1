@@ -1,0 +1,7 @@
+#!/bin/bash
+x=1
+while [ $x -ne 5 ] #spaces have to be between text & brackets
+do
+   echo $x
+   x=$(($x+1))
+done

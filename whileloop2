@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Type anything & press ENTER, or STOP to stop."
+x="Go"
+while [ $x != "STOP" ]
+do
+   read x
+   echo $x
+done
+

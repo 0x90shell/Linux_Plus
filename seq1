@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#prints sequence of numbers
+
+seq 5
+
+seq 6 10
+
+echo "Boom goes the dynamite!"

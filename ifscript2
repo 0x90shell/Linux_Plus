@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Is your name Bob?"
+read ISNAME
+if [ $ISNAME = "Yes" ];
+then
+   echo "Nice to meet you, Bob."
+   echo "Bob is in the house" | mail -s "WARNING" overflow  #root
+else
+   echo "Away from me, NotBob."
+fi
