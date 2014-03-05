@@ -1,0 +1,7 @@
+#! /bin/bash
+for x in `ls /usr/share/cowsay/cows`
+do
+   /usr/games/cowsay -f $x lol
+   echo $x
+   sleep 5
+done
